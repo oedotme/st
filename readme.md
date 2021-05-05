@@ -19,7 +19,7 @@ This project is a fork of [st - simple terminal emulator](https://st.suckless.or
 
 #### Packages `arch-based` systems
 
-##### Official repositories - `pacman` :
+##### Official repositories - `pacman`
 
 - `harfbuzz` : ligatures rendering
 - `noto-fonts-emoji` : emoji support
@@ -27,7 +27,7 @@ This project is a fork of [st - simple terminal emulator](https://st.suckless.or
 - `ttf-jetbrains-mono` or `ttf-fira-code` : supports ligatures
 - `ttf-nerd-fonts-symbols-mono` : glyph icons
 
-##### Aur - `yay` :
+##### Aur - `yay`
 
 - `libxft-bgra` : emoji rendering
 
