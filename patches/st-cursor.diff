@@ -1,5 +1,5 @@
 diff --git a/x.c b/x.c
-index a5c5aff..185166b 100644
+index a5c5aff..4dd7753 100644
 --- a/x.c
 +++ b/x.c
 @@ -1621,17 +1621,17 @@ xdrawcursor(int cx, int cy, Glyph g, int ox, int oy, Glyph og, Line line, int le
@@ -7,20 +7,19 @@ index a5c5aff..185166b 100644
  		if (selected(cx, cy)) {
  			drawcol = dc.col[defaultcs];
 -			g.fg = defaultrcs;
-+			// g.fg = defaultrcs;
++			g.fg = defaultfg;
  		} else {
  			drawcol = dc.col[defaultrcs];
 -			g.fg = defaultcs;
-+			// g.fg = defaultcs;
++			g.fg = defaultfg;
  		}
  	} else {
  		if (selected(cx, cy)) {
--			g.fg = defaultfg;
-+			// g.fg = defaultfg;
+ 			g.fg = defaultfg;
  			g.bg = defaultrcs;
  		} else {
 -			g.fg = defaultbg;
-+			// g.fg = defaultbg;
++			g.fg = defaultfg;
  			g.bg = defaultcs;
  		}
  		drawcol = dc.col[g.bg];
