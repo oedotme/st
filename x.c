@@ -1621,17 +1621,17 @@ xdrawcursor(int cx, int cy, Glyph g, int ox, int oy, Glyph og, Line line, int le
 		g.bg = defaultfg;
 		if (selected(cx, cy)) {
 			drawcol = dc.col[defaultcs];
-			g.fg = defaultrcs;
+			g.fg = defaultfg;
 		} else {
 			drawcol = dc.col[defaultrcs];
-			g.fg = defaultcs;
+			g.fg = defaultfg;
 		}
 	} else {
 		if (selected(cx, cy)) {
 			g.fg = defaultfg;
 			g.bg = defaultrcs;
 		} else {
-			g.fg = defaultbg;
+			g.fg = defaultfg;
 			g.bg = defaultcs;
 		}
 		drawcol = dc.col[g.bg];
