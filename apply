@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
 
 patch -p1 < patches/st-ligatures-20200430-0.8.3.diff
+patch -p1 < patches/st-font2-20190416-ba72400.diff

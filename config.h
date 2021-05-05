@@ -6,6 +6,12 @@
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
 static char *font = "JetBrains Mono Medium:size=12:antialias=true:autohint=true";
+static char *font2[] = {
+	"Symbols Nerd Font:size=12:antialias=true:autohint=true",
+	"Noto Color Emoji:size=10:antialias=true:autohint=true",
+	"Noto Sans Symbols:size=12:antialias=true:autohint=true"
+};
+
 static int borderpx = 2;
 
 /*
