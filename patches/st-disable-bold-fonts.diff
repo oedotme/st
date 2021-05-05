@@ -1,0 +1,13 @@
+diff --git a/x.c b/x.c
+index 230f165..a5c5aff 100644
+--- a/x.c
++++ b/x.c
+@@ -1013,7 +1013,7 @@ xloadfonts(char *fontstr, double fontsize)
+ 		die("can't open font %s\n", fontstr);
+ 
+ 	FcPatternDel(pattern, FC_WEIGHT);
+-	FcPatternAddInteger(pattern, FC_WEIGHT, FC_WEIGHT_BOLD);
++	// FcPatternAddInteger(pattern, FC_WEIGHT, FC_WEIGHT_BOLD);
+ 	if (xloadfont(&dc.ibfont, pattern))
+ 		die("can't open font %s\n", fontstr);
+ 
