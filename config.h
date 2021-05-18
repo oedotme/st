@@ -12,7 +12,7 @@ static char *font2[] = {
 	"Noto Sans Symbols:size=12:antialias=true:autohint=true"
 };
 
-static int borderpx = 2;
+static int borderpx = 5;
 
 /*
  * What program is execed by st depends of these precedence rules:
